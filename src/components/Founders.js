@@ -34,7 +34,7 @@ export default function Founders() {
         <FounderCard
           name="Prem Kohli"
           role="Global HR Leader & Strategic Advisor"
-          photo="/images/founder-prem-kohli.jpeg"
+          photo="images/founder-prem-kohli.jpeg"
         >
           <li>30+ years in HR leadership, culture building & industrial relations</li>
           <li>Corporate CHRO – EssilorLuxottica (Luxottica & Ray-Ban India)</li>
@@ -49,7 +49,7 @@ export default function Founders() {
         <FounderCard
           name="Deepak Anand"
           role="Senior HR & IR Advisor"
-          photo="/images/founder-deepak-anand.jpeg"
+          photo="images/founder-deepak-anand.jpeg"
         >
           <li>30+ years of leadership in HR, industrial relations & compliance</li>
           <li>

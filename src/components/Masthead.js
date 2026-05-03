@@ -1,7 +1,7 @@
 import React from "react";
 import BrandValuesStrip from "./BrandValuesStrip";
 
-const ICON_SRC = "/images/logo-icon.png";
+const ICON_SRC = "images/logo-icon.png";
 
 export default function Masthead() {
   return (
