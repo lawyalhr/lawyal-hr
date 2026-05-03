@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const links = [
   { href: "#top", label: "HOME" },
@@ -11,14 +11,28 @@ const links = [
 ];
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="site-nav" aria-label="Main">
       <div className="site-nav__inner">
-        {links.map(({ href, label }) => (
-          <a key={href} href={href}>
-            {label}
-          </a>
-        ))}
+        <div className={`site-nav__links${open ? " site-nav__links--open" : ""}`}>
+          {links.map(({ href, label }) => (
+            <a key={href} href={href} onClick={() => setOpen(false)}>
+              {label}
+            </a>
+          ))}
+        </div>
+        <button
+          className="site-nav__hamburger"
+          onClick={() => setOpen(o => !o)}
+          aria-label={open ? "Close menu" : "Open menu"}
+          aria-expanded={open}
+        >
+          <span className={open ? "open" : ""} />
+          <span className={open ? "open" : ""} />
+          <span className={open ? "open" : ""} />
+        </button>
       </div>
     </nav>
   );

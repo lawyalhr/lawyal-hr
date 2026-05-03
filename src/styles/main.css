@@ -84,17 +84,16 @@ a:hover {
 
 .masthead__inner {
   display: grid;
-  grid-template-columns: auto 1px minmax(0, 1fr) 1px auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: clamp(0.75rem, 2.5vw, 2rem);
   align-items: center;
-  max-width: min(76rem, 100% - 2rem);
-  margin: 0 auto;
-  padding: clamp(0.75rem, 1.8vw, 1.25rem) 1rem;
+  width: 100%;
+  padding: clamp(0.75rem, 1.8vw, 1.25rem) clamp(1.5rem, 4vw, 3.5rem);
 }
 
 .masthead__logo-slot {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   min-width: 0;
 }
@@ -119,6 +118,8 @@ a:hover {
   flex-direction: column;
   gap: 0.2rem;
   min-width: 0;
+  align-items: center;
+  text-align: center;
 }
 
 .masthead__brand-primary {
@@ -166,7 +167,7 @@ a:hover {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .masthead__inner {
     grid-template-columns: 1fr;
     justify-items: center;
@@ -190,6 +191,7 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem 1.25rem;
+    margin-left: 0 !important;
   }
 }
 
@@ -204,35 +206,21 @@ a:hover {
 
 .site-nav__inner {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   min-height: var(--sticky-nav-h);
-  max-width: min(76rem, 100% - 2rem);
-  margin: 0 auto;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem clamp(1rem, 3vw, 2rem);
   width: 100%;
-}
-
-.site-nav__inner a {
-  font-family: "Montserrat", "Inter", system-ui, sans-serif;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  opacity: 0.95;
-}
-
-.site-nav__inner a:hover {
-  color: var(--brand-gold);
-  opacity: 1;
+  position: relative;
 }
 
 .site-nav__links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: clamp(0.65rem, 2vw, 1.35rem);
+  justify-content: space-between;
+  gap: clamp(0.5rem, 1.5vw, 1.35rem);
+  flex: 1;
 }
 
 .site-nav__links a {
@@ -247,6 +235,73 @@ a:hover {
 .site-nav__links a:hover {
   color: var(--brand-gold);
   opacity: 1;
+}
+
+/* Hamburger button — hidden on desktop */
+.site-nav__hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem;
+  margin-left: auto;
+}
+
+.site-nav__hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  transition: transform 0.22s ease, opacity 0.22s ease;
+}
+
+.site-nav__hamburger span.open:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.site-nav__hamburger span.open:nth-child(2) { opacity: 0; }
+.site-nav__hamburger span.open:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 768px) {
+  .site-nav__hamburger {
+    display: flex;
+  }
+
+  .site-nav__links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--brand-navy);
+    border-top: 1px solid rgba(184, 134, 11, 0.28);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    z-index: 100;
+    padding: 0.25rem 0;
+  }
+
+  .site-nav__links--open {
+    display: flex;
+  }
+
+  .site-nav__links a {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.82rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    opacity: 1;
+  }
+
+  .site-nav__links a:last-child {
+    border-bottom: none;
+  }
+
+  .site-nav__links a:hover {
+    background: rgba(184, 134, 11, 0.12);
+  }
 }
 
 .site-nav__cta {

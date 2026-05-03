@@ -22,7 +22,6 @@ export default function Hero() {
                 Trusted Advisors.
               </span>
             </h1>
-            <span className="hero-pair__title-rule" aria-hidden="true" />
             <p className="hero-pair__lede">
               We help organizations navigate complex laws, strengthen workplaces and drive sustainable
               growth through practical, compliant and people-centric solutions.

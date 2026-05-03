@@ -18,19 +18,15 @@ export default function Masthead() {
             decoding="async"
           />
         </div>
-        <div className="masthead__divider" aria-hidden="true" />
         <div className="masthead__brand-text">
           <span className="masthead__brand-primary">LAWYAL</span>
           <span className="masthead__brand-sub">
             <span className="masthead__brand-sub-hr">HR</span> &amp; Legal Advisors
           </span>
           <span className="masthead__brand-tagline">
-            <span className="masthead__brand-rule" aria-hidden="true" />
             HR Solutions. Legally Strong.
-            <span className="masthead__brand-rule" aria-hidden="true" />
           </span>
         </div>
-        <div className="masthead__divider" aria-hidden="true" />
         <BrandValuesStrip />
       </div>
     </div>
