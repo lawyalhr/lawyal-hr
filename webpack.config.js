@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = (env, argv) => {
   const isProd = argv.mode === "production";
-  const publicPath = isProd ? "/lawyal-hr-react/" : "/";
+  const publicPath = "/";
 
   return {
     entry: "./src/index.js",
