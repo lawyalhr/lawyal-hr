@@ -49,7 +49,7 @@ export default function Founders() {
         <FounderCard
           name="Deepak Anand"
           role="Senior HR & IR Advisor"
-          photo="images/founder-deepak-anand.jpeg"
+          photo="images/founder-deepak-anand.png"
         >
           <li>30+ years of leadership in HR, industrial relations & compliance</li>
           <li>
