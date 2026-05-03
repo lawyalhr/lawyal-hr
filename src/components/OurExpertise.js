@@ -4,39 +4,39 @@ import { Users, Scale, FilePen, Handshake, ShieldCheck, Building2 } from "lucide
 const items = [
   {
     title: "HR Advisory",
-    text: "People Strategy | HR Policies | Organization Effectiveness",
+    text: "HR Policies | Handbooks | Compensation Benchmarking | Performance Management",
     Icon: Users
   },
   {
     title: "Labour Law Advisory",
-    text: "Compliance | Risk Management | Contract Labour | Audits",
+    text: "New Labour Codes | PF & ESI | Bonus & Gratuity | Contract Labour",
     Icon: Scale
   },
   {
     title: "Litigation & Disputes",
-    text: "Industrial Disputes | Claims | Representations | Proceedings",
+    text: "Industrial Tribunals | Conciliation Proceedings | Gurgaon / NCR / Pan India",
     Icon: FilePen
   },
   {
     title: "Industrial Relations",
-    text: "Union Management | Negotiations | Settlement Support",
+    text: "Union Negotiations | Collective Bargaining | Grievance Handling | Discipline",
     Icon: Handshake
   },
   {
     title: "Compliance & Governance",
-    text: "Policies | Training | Investigations | Ethics & Conduct",
+    text: "POSH Compliance | Workplace Ethics | Statutory Audits | Risk Management",
     Icon: ShieldCheck
   },
   {
     title: "Industry Solutions",
-    text: "Tailored Solutions for Diverse Industries",
+    text: "Manufacturing | Shopfloor Excellence | Unionised Environments | MNCs",
     Icon: Building2
   }
 ];
 
 export default function OurExpertise() {
   return (
-    <section className="expertise section" id="services" aria-labelledby="expertise-heading">
+    <section className="expertise" id="expertise" aria-labelledby="expertise-heading">
       <div className="expertise__head">
         <span className="expertise__rule" aria-hidden />
         <h2 id="expertise-heading" className="expertise__title">
@@ -51,7 +51,9 @@ export default function OurExpertise() {
               <Icon size={44} strokeWidth={1.5} aria-hidden />
             </div>
             <h3 className="expertise-card__title">{title}</h3>
-            <p className="expertise-card__body">{text}</p>
+            <ul className="expertise-card__bullets">
+              {text.split(" | ").map(b => <li key={b}>{b}</li>)}
+            </ul>
           </li>
         ))}
       </ul>

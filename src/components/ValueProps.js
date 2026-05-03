@@ -2,40 +2,28 @@ import React from "react";
 
 const why = [
   {
-    title: "Prevention over cure",
-    text: "We work to eliminate disputes before they arise."
+    title: "Corporate HR leadership + statutory expertise",
+    text: "Our founders led HR at MNCs and large manufacturers for 30+ years — combining boardroom insight with deep knowledge of Central and State Labour Laws."
   },
   {
-    title: "Integrated expertise",
-    text: "HR, IR & legal perspective under one roof."
+    title: "Preventive approach",
+    text: "We build systems that eliminate disputes before they arise — avoiding litigation, regulatory scrutiny, and industrial unrest proactively."
   },
   {
-    title: "Deep industry experience",
-    text: "Proven in manufacturing and complex environments."
+    title: "Implementation-driven advisory",
+    text: "Practical, ground-level solutions you can actually deploy — not theoretical compliance checklists or generic legal opinions."
   },
   {
-    title: "Compliance assurance",
-    text: "Audit-ready, risk-aware operations."
+    title: "Unionised manufacturing experience",
+    text: "Proven in complex, unionised manufacturing environments where IR stability and shopfloor discipline are business-critical."
   },
   {
-    title: "Industrial harmony",
-    text: "Stable, union-sensitive workforce management."
+    title: "Litigation-ready documentation",
+    text: "Defensible HR systems, audit-ready registers, and charge-sheet frameworks that withstand tribunal and regulatory scrutiny."
   },
   {
-    title: "Practical approach",
-    text: "Ground-level, implementable solutions, not theory alone."
-  },
-  {
-    title: "Cost optimisation",
-    text: "Improve efficiency without unnecessary overhead."
-  },
-  {
-    title: "Leadership alignment",
-    text: "Partnering with CXOs for strategic outcomes."
-  },
-  {
-    title: "End-to-end ownership",
-    text: "From policy design through execution."
+    title: "Business-aligned compliance",
+    text: "Statutory obligations integrated with operational continuity — ensuring organisations remain protected without disrupting business flow."
   }
 ];
 
@@ -43,10 +31,10 @@ export default function ValueProps() {
   return (
     <section className="section why-us" id="why" aria-labelledby="why-heading">
       <h2 id="why-heading" className="section__title section__title--center">
-        Why LawYal HR Advisors
+        What Sets Us Apart
       </h2>
       <p className="section__subtitle why-us__subtitle">
-        Compliance assured. Disputes prevented. Future-ready organisations.
+        Strong compliance. Structured discipline. Industrial harmony.
       </p>
       <ul className="why-grid">
         {why.map((item) => (

@@ -23,8 +23,9 @@ export default function Hero() {
               </span>
             </h1>
             <p className="hero-pair__lede">
-              We help organizations navigate complex laws, strengthen workplaces and drive sustainable
-              growth through practical, compliant and people-centric solutions.
+              Specialised HR &amp; IR advisory under Central and State Labour Laws — including the
+              New Labour Codes. Preventive, structured, and risk-mitigation focused, with 30+ years
+              of corporate leadership experience.
             </p>
           </div>
           <div className="hero-pair__actions">
@@ -37,9 +38,10 @@ export default function Hero() {
           <div className="hero-pair__about-inner">
             <h2 className="hero-pair__about-title">ABOUT US</h2>
             <p className="hero-pair__about-text">
-              Lawyal HR &amp; Legal Advisors partners with organisations across India to strengthen HR
-              foundations, industrial relations, and statutory compliance. We combine practical HR
-              advisory with labour-law depth so leadership teams can act with clarity and confidence.
+              Founded by senior HR &amp; IR professionals with 30+ years of leadership in large
+              manufacturing and multinational environments. Based in Gurugram, we work closely with
+              Promoters, MDs, CHROs and Plant Heads — combining corporate HR expertise with deep
+              statutory knowledge to build compliant, audit-ready, industrially stable workplaces.
             </p>
           </div>
           <a className="btn btn--gold btn--hero-primary hero-pair__about-cta" href="#contact">

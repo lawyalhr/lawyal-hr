@@ -2,28 +2,28 @@ import React from "react";
 
 const values = [
   {
-    title: "Integrity and ethics",
-    text: "We do what is right, not just what is permissible, so you can trust us with sensitive matters."
+    title: "Integrity & Ethics",
+    text: "We hold ourselves to the highest ethical standards — doing what is right, not just permissible. Clients trust us with their most sensitive matters."
   },
   {
-    title: "Excellence and quality",
-    text: "Legal advice and services that draw on deep expertise and aim to exceed expectations."
+    title: "Excellence & Quality",
+    text: "We strive to provide HR and legal advice of the highest quality, drawing on deep expertise to deliver solutions that exceed expectations."
   },
   {
-    title: "Collaboration and teamwork",
-    text: "We work as one team with you, bringing diverse skills to solve problems creatively."
+    title: "Client-Centric Approach",
+    text: "Your objectives shape our work. We listen, understand your challenges, and tailor clear, practical solutions that add real value."
   },
   {
-    title: "Client-centric approach",
-    text: "Your objectives shape our work; we tailor clear, practical solutions that add value."
+    title: "Collaboration & Teamwork",
+    text: "We work as one team — with you and within our firm — leveraging diverse skills and perspectives to approach problems creatively."
   },
   {
-    title: "Innovation and adaptability",
-    text: "We stay ahead of changing law, strategy, and technology in India and the global market."
+    title: "Innovation & Adaptability",
+    text: "India's legal and HR landscape is constantly evolving. We stay ahead of developments so our advice is always forward-thinking and current."
   },
   {
-    title: "Social responsibility",
-    text: "Pro bono, community work, and initiatives that promote access to justice and the rule of law."
+    title: "Social Responsibility",
+    text: "Committed to making a positive impact through pro bono work, community service, and initiatives that promote access to justice."
   }
 ];
 
@@ -32,25 +32,24 @@ export default function FirmAbout() {
     <section className="section firm-about" id="about" aria-labelledby="about-heading">
       <div className="firm-about__intro">
         <h2 id="about-heading" className="section__title">
-          About LawYal HR Advisors
+          About Lawyal HR &amp; Legal Advisors
         </h2>
         <p>
-          LawYal HR Advisors is a law firm based in <strong>Gurugram (Haryana)</strong>, providing
-          comprehensive legal solutions across a wide range of practice areas. Our team of seasoned
-          attorneys and professionals brings a deep understanding of the law and a commitment to
-          exceptional service, from corporate and M&amp;A to intellectual property, labour and
-          employment, real estate, litigation, arbitration, and more, so we can act as a one-stop
-          legal partner for businesses, individuals, and institutions.
+          Lawyal HR &amp; Legal Advisors is a premier firm based in <strong>Gurugram (Haryana)</strong>,
+          dedicated to providing comprehensive HR, IR, and legal solutions. Our team comprises seasoned
+          HR leaders and legal professionals who bring a wealth of experience, a deep understanding of
+          the law, and a commitment to exceptional service — spanning corporate law, M&amp;A, intellectual
+          property, labour and employment, real estate, litigation, arbitration, and more.
         </p>
         <p>
-          We work collaboratively to understand your challenges, stay current with a dynamic legal
-          landscape in India, and deliver clear, forward-thinking advice. Ethical practice and
-          confidentiality are the cornerstone of our firm: we protect and advance your interests
-          with professionalism in every matter.
+          We work collaboratively, staying at the forefront of India's dynamic legal developments to
+          deliver advice that is comprehensive, forward-thinking, and tailored to each client's specific
+          needs. Ethical practice and complete confidentiality are the cornerstones of our firm — we
+          protect and advance your interests with professionalism at every turn.
         </p>
       </div>
       <h3 className="firm-about__values-title" id="values-heading">
-        Our values
+        Our Values
       </h3>
       <ul className="values-grid" aria-labelledby="values-heading">
         {values.map((v) => (

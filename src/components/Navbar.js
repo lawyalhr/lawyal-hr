@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
 const links = [
-  { href: "#top", label: "HOME" },
-  { href: "#about", label: "ABOUT US" },
+  { href: "#top",      label: "HOME" },
+  { href: "#about",    label: "ABOUT US" },
+  { href: "#expertise", label: "EXPERTISE" },
   { href: "#services", label: "SERVICES" },
-  { href: "#industries", label: "INDUSTRIES" },
-  { href: "#insights", label: "INSIGHTS" },
-  { href: "#careers", label: "CAREERS" },
-  { href: "#contact", label: "CONTACT US" }
+  { href: "#why",      label: "WHY US" },
+  { href: "#founders", label: "OUR TEAM" },
+  { href: "#contact",  label: "CONTACT US" }
 ];
 
 export default function Navbar() {
