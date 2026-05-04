@@ -47,7 +47,7 @@ export default function Founders() {
           <li>Recognitions including Asia HR Awards & global employee engagement excellence</li>
         </FounderCard>
         <FounderCard
-          name="Deepak Anand"
+          name="Anand Deepak"
           role="Senior HR & IR Advisor"
           photo="images/founder-deepak-anand.png"
         >
