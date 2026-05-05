@@ -2,7 +2,7 @@ import React from "react";
 
 const coreServices = [
   {
-    title: "New Labour Codes — Gap Analysis & Implementation",
+    title: "New Labour Codes, Gap Analysis & Implementation",
     text: "Wage restructuring, standing orders revision, policy alignment, compliance readiness audits, and end-to-end implementation roadmap under the four New Labour Codes."
   },
   {
@@ -32,7 +32,7 @@ const coreServices = [
 ];
 
 const engagementModels = [
-  { title: "Retainer-based HR & IR Advisory", text: "Ongoing strategic advisory on a monthly retainer — your dedicated HR and IR counsel." },
+  { title: "Retainer-based HR & IR Advisory", text: "Ongoing strategic advisory on a monthly retainer, your dedicated HR and IR counsel." },
   { title: "Project-based Labour Code Implementation", text: "Scoped engagement to assess, plan, and implement compliance under the New Labour Codes." },
   { title: "Domestic Enquiry Assignments", text: "End-to-end domestic enquiry support as Independent Enquiry Officer or advisory counsel." },
   { title: "Compliance Audit Mandates", text: "Structured audits of Central and State labour law compliance, with gap reports and remediation plans." },
@@ -41,13 +41,13 @@ const engagementModels = [
 ];
 
 const trainingAudit = [
-  { title: "POSH Compliance & Training", text: "Prevention of Sexual Harassment Act 2013 — ICC setup, awareness training, investigations, and annual reporting." },
+  { title: "POSH Compliance & Training", text: "Prevention of Sexual Harassment Act 2013, ICC setup, awareness training, investigations, and annual reporting." },
   { title: "Shopfloor Discipline & Misconduct", text: "Practical training on Labour Codes, misconduct handling, and disciplinary procedure for HR and line managers." },
   { title: "Domestic Enquiry & Natural Justice", text: "Training on Principles of Natural Justice, enquiry conduct, and legally defensible disciplinary outcomes." },
   { title: "Grievance Handling & Communication", text: "Structured grievance redressal, employee communication skills, and conflict de-escalation." },
-  { title: "IR Sensitisation", text: "Industrial Relations awareness for managers — union dynamics, collective bargaining, and workmen engagement." },
+  { title: "IR Sensitisation", text: "Industrial Relations awareness for managers, union dynamics, collective bargaining, and workmen engagement." },
   { title: "Documentation & Legal Risk", text: "HR documentation practices, legal risk identification, and building audit-ready records." },
-  { title: "New Labour Codes Audit", text: "Gap analysis on Code on Wages, Industrial Relations Code, Social Security Code, and OSH Code — with actionable remediation." },
+  { title: "New Labour Codes Audit", text: "Gap analysis on Code on Wages, Industrial Relations Code, Social Security Code, and OSH Code, with actionable remediation." },
   { title: "HR Risk & Shopfloor Audit", text: "Assessment of payroll structures, service conditions, HR policies/manual, health, safety & welfare compliance, and grievance redressal mechanisms." }
 ];
 
@@ -58,7 +58,7 @@ export default function Services() {
       <h2 id="services-heading" className="section__title section__title--center">
         Core Practice Areas
       </h2>
-      <p className="services__tagline">HR, IR &amp; Labour Law — end to end</p>
+      <p className="services__tagline">HR, IR &amp; Labour Law, end to end</p>
       <div className="services__grid services__grid--hr">
         {coreServices.map((item) => (
           <article key={item.title} className="service-card service-card--legal">
@@ -72,7 +72,7 @@ export default function Services() {
         Engagement Models
       </h3>
       <p className="section__subtitle services__legal-lede">
-        Flexible mandates designed around how you need support — from ongoing retainers to crisis intervention.
+        Flexible mandates designed around how you need support, from ongoing retainers to crisis intervention.
       </p>
       <div className="services__grid services__grid--legal">
         {engagementModels.map((item) => (

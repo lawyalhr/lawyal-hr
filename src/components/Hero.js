@@ -23,7 +23,7 @@ export default function Hero() {
               </span>
             </h1>
             <p className="hero-pair__lede">
-              Specialised HR &amp; IR advisory under Central and State Labour Laws — including the
+              Specialised HR &amp; IR advisory under Central and State Labour Laws, including the
               New Labour Codes. Preventive, structured, and risk-mitigation focused, with 30+ years
               of corporate leadership experience.
             </p>
@@ -40,7 +40,7 @@ export default function Hero() {
             <p className="hero-pair__about-text">
               Founded by senior HR &amp; IR professionals with 30+ years of leadership in large
               manufacturing and multinational environments. Based in Gurugram, we work closely with
-              Promoters, MDs, CHROs and Plant Heads — combining corporate HR expertise with deep
+              Promoters, MDs, CHROs and Plant Heads, combining corporate HR expertise with deep
               statutory knowledge to build compliant, audit-ready, industrially stable workplaces.
             </p>
           </div>

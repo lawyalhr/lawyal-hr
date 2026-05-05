@@ -237,7 +237,7 @@ a:hover {
   opacity: 1;
 }
 
-/* Hamburger button — hidden on desktop */
+/* Hamburger button, hidden on desktop */
 .site-nav__hamburger {
   display: none;
   flex-direction: column;
@@ -370,7 +370,7 @@ a:hover {
   clip-path: polygon(0 0, 100% 0, 68% 100%, 0 100%);
 }
 
-/* Right about panel — mirrors the left copy panel */
+/* Right about panel, mirrors the left copy panel */
 .hero-pair__about {
   position: absolute;
   top: 0;

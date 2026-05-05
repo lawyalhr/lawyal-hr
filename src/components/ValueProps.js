@@ -3,15 +3,15 @@ import React from "react";
 const why = [
   {
     title: "Corporate HR leadership + statutory expertise",
-    text: "Our founders led HR at MNCs and large manufacturers for 30+ years — combining boardroom insight with deep knowledge of Central and State Labour Laws."
+    text: "Our founders led HR at MNCs and large manufacturers for 30+ years, combining boardroom insight with deep knowledge of Central and State Labour Laws."
   },
   {
     title: "Preventive approach",
-    text: "We build systems that eliminate disputes before they arise — avoiding litigation, regulatory scrutiny, and industrial unrest proactively."
+    text: "We build systems that eliminate disputes before they arise, avoiding litigation, regulatory scrutiny, and industrial unrest proactively."
   },
   {
     title: "Implementation-driven advisory",
-    text: "Practical, ground-level solutions you can actually deploy — not theoretical compliance checklists or generic legal opinions."
+    text: "Practical, ground-level solutions you can actually deploy, not theoretical compliance checklists or generic legal opinions."
   },
   {
     title: "Unionised manufacturing experience",
@@ -23,7 +23,7 @@ const why = [
   },
   {
     title: "Business-aligned compliance",
-    text: "Statutory obligations integrated with operational continuity — ensuring organisations remain protected without disrupting business flow."
+    text: "Statutory obligations integrated with operational continuity, ensuring organisations remain protected without disrupting business flow."
   }
 ];
 

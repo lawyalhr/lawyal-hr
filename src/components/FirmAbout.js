@@ -3,7 +3,7 @@ import React from "react";
 const values = [
   {
     title: "Integrity & Ethics",
-    text: "We hold ourselves to the highest ethical standards — doing what is right, not just permissible. Clients trust us with their most sensitive matters."
+    text: "We hold ourselves to the highest ethical standards, doing what is right, not just permissible. Clients trust us with their most sensitive matters."
   },
   {
     title: "Excellence & Quality",
@@ -15,7 +15,7 @@ const values = [
   },
   {
     title: "Collaboration & Teamwork",
-    text: "We work as one team — with you and within our firm — leveraging diverse skills and perspectives to approach problems creatively."
+    text: "We work as one team, with you and within our firm, leveraging diverse skills and perspectives to approach problems creatively."
   },
   {
     title: "Innovation & Adaptability",
@@ -38,13 +38,13 @@ export default function FirmAbout() {
           Lawyal HR &amp; Legal Advisors is a premier firm based in <strong>Gurugram (Haryana)</strong>,
           dedicated to providing comprehensive HR, IR, and legal solutions. Our team comprises seasoned
           HR leaders and legal professionals who bring a wealth of experience, a deep understanding of
-          the law, and a commitment to exceptional service — spanning corporate law, M&amp;A, intellectual
+          the law, and a commitment to exceptional service, spanning corporate law, M&amp;A, intellectual
           property, labour and employment, real estate, litigation, arbitration, and more.
         </p>
         <p>
           We work collaboratively, staying at the forefront of India's dynamic legal developments to
           deliver advice that is comprehensive, forward-thinking, and tailored to each client's specific
-          needs. Ethical practice and complete confidentiality are the cornerstones of our firm — we
+          needs. Ethical practice and complete confidentiality are the cornerstones of our firm. We
           protect and advance your interests with professionalism at every turn.
         </p>
       </div>
