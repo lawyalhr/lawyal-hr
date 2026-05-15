@@ -61,13 +61,13 @@ export default function Footer() {
       <ul className="site-footer__contacts">
         <li>
           <IconGlobe />
-          <a href="https://www.lawyalhrlegal.com" target="_blank" rel="noreferrer">
-            www.lawyalhrlegal.com
+          <a href="https://www.lawyalhr.com" target="_blank" rel="noreferrer">
+            www.lawyalhr.com
           </a>
         </li>
         <li>
           <IconMail />
-          <a href="mailto:info@lawyalhrlegal.com">info@lawyalhrlegal.com</a>
+          <a href="mailto:info@lawyalhr.com">info@lawyalhrlegal.com</a>
         </li>
         <li>
           <IconPhone />
