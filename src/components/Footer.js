@@ -67,7 +67,7 @@ export default function Footer() {
         </li>
         <li>
           <IconMail />
-          <a href="mailto:info@lawyalhr.com">info@lawyalhrlegal.com</a>
+          <a href="mailto:info@lawyalhr.com">info@lawyalhr.com</a>
         </li>
         <li>
           <IconPhone />
@@ -75,7 +75,7 @@ export default function Footer() {
         </li>
         <li>
           <IconPin />
-          <span>Pan India Presence</span>
+          <span> Pan India Presence </span>
         </li>
       </ul>
       <p className="site-footer__copy">
