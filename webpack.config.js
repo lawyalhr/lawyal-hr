@@ -46,6 +46,10 @@ module.exports = (env, argv) => {
       new CopyWebpackPlugin({
         patterns: [
           {
+            from: path.join(__dirname, "CNAME"),
+            to: "."
+          },
+          {
             from: path.join(__dirname, "public", "images"),
             to: "images",
             noErrorOnMissing: true
