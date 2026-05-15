@@ -61,8 +61,8 @@ export default function Footer() {
       <ul className="site-footer__contacts">
         <li>
           <IconGlobe />
-          <a href="https://www.lawyalhr.com" target="_blank" rel="noreferrer">
-            www.lawyalhr.com
+          <a href="https://lawyalhr.com" target="_blank" rel="noreferrer">
+            lawyalhr.com
           </a>
         </li>
         <li>
